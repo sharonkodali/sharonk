@@ -4,12 +4,28 @@ title: Student Blog
 ---
 
 
-## Build you Home Page here 
-This is about your journey. Start now!!!
+<code style= "color: #4e804f; font-size:36px"> Sharon's Blog
 
-## Overview of Hacks, Study and Tangibles
-Blogging in GitHub pages is a way to learn and code at the same time. 
+!['freeform'](/images/IMG_6357.jpg)
+<img src="/images/IMG_6349.jpg" alt="Image" width="100" height="300">
+![pic3](/images/IMG_6356.jpg)
 
-- Plans, Lists, [Scrum Boards](https://clickup.com/blog/scrum-board/) help you to track key events, show progress and record time.  Effort is a big part of your class grade.  Show plans and time spent!
-- [Hacks(Todo)](https://levelup.gitconnected.com/six-ultimate-daily-hacks-for-every-programmer-60f5f10feae) enable you to stay in focus with key requirements of the class.  Each Hack will produce Tangibles.
-- Tangibles or [Tangible Artifacts](https://en.wikipedia.org/wiki/Artifact_(software_development)) are things you accumulate as a learner and coder. 
+## About me
+
+### I am 16 years old and I am a junior at Del Norte highschool. I love listening to music and reading. Some of my favorite artists include Taylor Swift, Beabadobee, and Coldplay. I play the piano, and I am also learning how to play the guitar. I love cooking and trying out new recipes, I also like to hang out with my friends. My favorite food is probably ice cream or rice. My favorite subject in school is english and chemistry
+
+Trial for localhost
+
+## Goals for this year
+
+### As this year is my junior year of high school, and I have heard from many people that this will be the hardest of the four years I have set a few goals for myself. I definitely want to try to be more organized and procrastinate less this year, I want to make sure I can get all my work done efficently and as soon as possible. I want to be organized so I dont miss any assignments and also make sure that I am gcing my full effort to everything I do. Overall, this year I want to make sure I am incredibly focused on school and my academics with limited distractions so I can build better habits. I am excited for the new classes I am taking this year and I am ready to learn new topics
+
+## MY CLASS SCHEDULE
+
+| class       | period
+| ----------- |:-------|
+| AP CSP      |   1      |
+| APEL        |   2      |
+| AP Bio      |   3      |
+| Calc BC     |   4      |
+| off roll    |   5      |
