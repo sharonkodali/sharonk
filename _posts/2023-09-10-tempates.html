@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timezone Converter</title>
+</head>
+<body>
+    <h1>Timezone Converter</h1>
+    <form id="converter-form">
+        <label for="user_time">Enter Time (YYYY-MM-DD HH:MM:SS):</label>
+        <input type="text" id="user_time" name="user_time" required>
+        
+        <label for="user_timezone">User Timezone:</label>
+        <input type="text" id="user_timezone" name="user_timezone" required>
+        
+        <label for="target_timezone">Target Timezone:</label>
+        <input type="text" id="target_timezone" name="target_timezone" required>
+        
+        <input type="submit" value="Convert">
+    </form>
+    
+    <div id="result"></div>
+    
+    <script>
+        document.getElementById('converter-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const userTime = document.getElementById('user_time').value;
+            const userTimezone = document.getElementById('user_timezone').value;
+            const targetTimezone = document.getElementById('target_timezone').value;
+            
+            fetch('/convert', {
+                method: 'POST',
+                body: new URLSearchParams({
+                    user_time: userTime,
+                    user_timezone: userTimezone,
+                    target_timezone: targetTimezone
+                }),
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded'
+                }
+            })
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('result').innerHTML = `Converted Time: ${data}`;
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+        });
+    </script>
+</body>
+</html>
